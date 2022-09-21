@@ -30,9 +30,13 @@ position = Vector2( 413.003, 395.272 )
 current = true
 
 [node name="Floor" parent="." instance=ExtResource( 6 )]
+position = Vector2( 400, 513 )
 
 [node name="Floor2" parent="." instance=ExtResource( 6 )]
 position = Vector2( 1200, 513 )
+
+[node name="Floor3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1221, 290 )
 
 [node name="TurretsSpawner" type="Node" parent="."]
 script = ExtResource( 5 )
